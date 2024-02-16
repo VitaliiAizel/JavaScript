@@ -1,6 +1,18 @@
 let leg1, leg2, hyp, angle1, angle2;
 let transform = 180 / Math.PI;          //(* = rad -> grad) (/ = grad -> rad)
 
+console.log("You can solve for the sides and acute angles of a right" + 
+" triangle. To do this, enter the word 'triangle', after which in round" + 
+" brackets write the value (for a correct result, enter only the correct " + 
+"values) and the type of two data, including the following:");
+console.log("'leg' and 'leg'");
+console.log("'leg' and 'hypotenuse'");
+console.log("'leg' and 'adjacent angle'");
+console.log("'leg' and 'opposite angle'");
+console.log("'hypotenuse' and 'angle'");
+console.log("(the order of entering the arguments is not important)");
+console.log('For example you can enter this: triangle(5,"hypotenuse",3,"leg");');
+
 function triangle(arg1, type1, arg2, type2) {
     if (type1 == "leg" && type2 == "leg") {
         leg1 = arg1;
