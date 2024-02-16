@@ -70,7 +70,7 @@ function triangle(arg1, type1, arg2, type2) {
         leg2 = hyp * Math.cos(angle1 / transform);
         if (angle1 >= 90 || (arg1 <= 0 || arg2 <= 0)) return error();
     } else {
-        return console.log("failed");
+        return console.log("Failed. Uncorred type");
     }
     return display(leg1, leg2, hyp, angle1, angle2);
 }
@@ -82,12 +82,12 @@ function display(leg1, leg2, hyp, angle1, angle2) {
         "c: " + hyp.toFixed(1) + "\n" +
         "alpha: " + angle1.toFixed(1) + "\n" +
         "beta: " + angle2.toFixed(1) + "\n" +
-        "success"
+        "Success"
     );
 }
 
 function error() {
-    console.log("Uncorrect input (angle >= 90, zero or negative)");
+    console.log("Uncorrect input (angle >= 90, zero or negative argument)");
 }
 
 triangle(3, "leg", 3, "leg");
