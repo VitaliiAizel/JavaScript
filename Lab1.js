@@ -89,12 +89,3 @@ function display(leg1, leg2, hyp, angle1, angle2) {
 function error() {
     return "Uncorrect input (angle >= 90, zero or negative argument)";
 }
-
-triangle(3, "leg", 3, "leg");
-triangle(5, "hypotenuse", 3, "leg");
-
-triangle(6, "leg", 60, "adjacent angle");
-triangle(30, "opposite angle", 40, "leg");
-triangle(90, "opposite angle", 20, "leg");
-
-triangle(6, "hypotenuse", 30, "angle");
