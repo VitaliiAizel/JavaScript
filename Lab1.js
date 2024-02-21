@@ -87,5 +87,5 @@ function display(leg1, leg2, hyp, angle1, angle2) {
 }
 
 function error() {
-    return "Uncorrect input (angle >= 90, zero or negative argument)";
+    return "Uncorrect input (angle >= 90 or <= 0, zero or negative arguments of sides or hypotenuse >= leg)";
 }
