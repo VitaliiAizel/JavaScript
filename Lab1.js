@@ -77,11 +77,11 @@ function triangle(arg1, type1, arg2, type2) {
 
 function display(leg1, leg2, hyp, angle1, angle2) {
     console.log(
-        "a: " + leg1.toFixed(1) + "\n" +
-        "b: " + leg2.toFixed(1) + "\n" +
-        "c: " + hyp.toFixed(1) + "\n" +
-        "alpha: " + angle1.toFixed(1) + "\n" +
-        "beta: " + angle2.toFixed(1)
+        "a: " + leg1;
+        "b: " + leg2;
+        "c: " + hyp;
+        "alpha: " + angle1;
+        "beta: " + angle2;
     );
     return "Success";
 }
