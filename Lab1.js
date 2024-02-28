@@ -70,7 +70,7 @@ function triangle(arg1, type1, arg2, type2) {
         leg2 = hyp * Math.cos(angle1 / transform);
         if (angle1 >= 90 || (arg1 <= 0 || arg2 <= 0)) return error();
     } else {
-        return "Failed. Uncorred type";
+        return "Failed. Incorred type";
     }
     return display(leg1, leg2, hyp, angle1, angle2);
 }
@@ -87,5 +87,5 @@ function display(leg1, leg2, hyp, angle1, angle2) {
 }
 
 function error() {
-    return "Uncorrect input (angle >= 90 or <= 0, zero or negative arguments of sides or hypotenuse >= leg)";
+    return "Incorrect input (angle >= 90 or <= 0, zero or negative arguments of sides or hypotenuse >= leg)";
 }
