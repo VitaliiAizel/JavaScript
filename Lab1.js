@@ -76,13 +76,11 @@ function triangle(arg1, type1, arg2, type2) {
 }
 
 function display(leg1, leg2, hyp, angle1, angle2) {
-    console.log(
-        "a: " + leg1;
-        "b: " + leg2;
-        "c: " + hyp;
-        "alpha: " + angle1;
-        "beta: " + angle2;
-    );
+        console.log("a: " + leg1);
+        console.log("b: " + leg2);
+        console.log("c: " + hyp);
+        console.log("alpha: " + angle1);
+        console.log("beta: " + angle2);
     return "Success";
 }
 
