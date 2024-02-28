@@ -20,7 +20,7 @@ function triangle(arg1, type1, arg2, type2) {
         hyp = Math.sqrt(leg1 ** 2 + leg2 ** 2);
         angle1 = Math.atan(leg1 / leg2) * transform;
         angle2 = Math.atan(leg2 / leg1) * transform;
-        if (arg1 <= 0 || arg2 <= 0) return error();
+        if (arg1 <= 0.0 || arg2 <= 0.0) return error();
     } else if ((type1 == "leg" && type2 == "hypotenuse") || (type1 == "hypotenuse" && type2 == "leg")) {
         if (type1 == "hypotenuse") {
             leg1 = arg2;
@@ -32,7 +32,7 @@ function triangle(arg1, type1, arg2, type2) {
         leg2 = Math.sqrt(hyp ** 2 - leg1 ** 2);
         angle1 = Math.atan(leg1 / leg2) * transform;
         angle2 = Math.atan(leg2 / leg1) * transform;
-        if (hyp <= leg1 || (arg1 <= 0 || arg2 <= 0)) return error();
+        if (hyp <= leg1 || (arg1 <= 0.0 || arg2 <= 0.0)) return error();
     } else if ((type1 == "adjacent angle" && type2 == "leg") || (type1 == "leg" && type2 == "adjacent angle")) {
         if (type1 == "adjacent angle") {
             leg1 = arg2;
@@ -43,8 +43,8 @@ function triangle(arg1, type1, arg2, type2) {
         }
         leg2 = leg1 * Math.tan(angle1 / transform);
         hyp = Math.sqrt(leg1 ** 2 + leg2 ** 2);
-        angle2 = 90 - angle1;
-        if (angle1 >= 90 || (arg1 <= 0 || arg2 <= 0)) return error();
+        angle2 = 90.0 - angle1;
+        if (angle1 >= 90.0 || (arg1 <= 0.0 || arg2 <= 0.0)) return error();
     } else if ((type1 == "opposite angle" && type2 == "leg") || (type1 == "leg" && type2 == "opposite angle")) {
         if (type1 == "opposite angle") {
             leg1 = arg2;
@@ -55,8 +55,8 @@ function triangle(arg1, type1, arg2, type2) {
         }
         leg2 = leg1 / Math.tan(angle1 / transform);
         hyp = Math.sqrt(leg1 ** 2 + leg2 ** 2);
-        angle2 = 90 - angle1;
-        if (angle1 >= 90 || (arg1 <= 0 || arg2 <= 0)) return error();
+        angle2 = 90.0 - angle1;
+        if (angle1 >= 90.0 || (arg1 <= 0.0 || arg2 <= 0.0)) return error();
     } else if ((type1 == "hypotenuse" && type2 == "angle") || (type1 == "angle" && type2 == "hypotenuse")) {
         if (type1 == "hypotenuse") {
             hyp = arg1;
@@ -65,10 +65,10 @@ function triangle(arg1, type1, arg2, type2) {
             hyp = arg2;
             angle1 = arg1;
         }
-        angle2 = 90 - angle1;
+        angle2 = 90.0 - angle1;
         leg1 = hyp * Math.sin(angle1 / transform);
         leg2 = hyp * Math.cos(angle1 / transform);
-        if (angle1 >= 90 || (arg1 <= 0 || arg2 <= 0)) return error();
+        if (angle1 >= 90.0 || (arg1 <= 0.0 || arg2 <= 0.0)) return error();
     } else {
         return "Failed. Incorred type";
     }
