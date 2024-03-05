@@ -1,8 +1,8 @@
 (function(window) {
-  const speakWord = "Good Bye";
   let speakFunction = function(name) {
+    let speakWord = "Hello";
     console.log(speakWord + " " + name);
   };
 
-  window.speakGoodBye = speakFunction;
+  window.speakHello = speakFunction;
 })(window);
