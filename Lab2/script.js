@@ -17,25 +17,6 @@
     console.log("");
     console.log("This part of the program 'welcomes' all people except people whose names have repeated letters. The program says 'Good Bye' to such people");
 
-    /*for (var i = 0; i < names.length; i++) {
-        let name = names[i];
-        let lastLetter = name.charAt(name.length - 1).toLowerCase();
-        let vowels = ["a", "o", "u", "y", "i", "e"];
-
-        function isLastVowel() {
-            for (var j = 0; j < vowels.length; j++) {
-                if(lastLetter === vowels[j]) return true;
-            }
-            return false;   
-        } 
-        
-        if (isLastVowel()) {
-            speakGoodBye(name);
-        } else {
-            speakHello(name);
-        }
-    }*/
-
     for (var i = 0; i < names.length; i++) {
         let name = names[i];
 
