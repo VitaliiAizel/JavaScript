@@ -21,11 +21,10 @@
         let name = names[i];
 
         function isRepetition() {
-            for (var i = 0; i < name.length; i++) {
-                for(var j = 0; j < name.length; j++){
+            for (var i = 0; i < name.length; i++) 
+                for(var j = 0; j < name.length; j++)
                     if(name.charAt(i) === name.charAt(j) && i != j) return true;
-                }
-            }
+                
             return false;   
         } 
         
