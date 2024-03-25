@@ -19,7 +19,7 @@ let car2 = {
     driver: {
         name: "Michael Brown",
         category: "B",
-        personal_limitations: null      //тотально обезбашений
+        personal_limitations: null
     },
     tuning: false,
     number_of_acc: 2
