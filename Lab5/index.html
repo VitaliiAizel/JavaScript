@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Mein Spiel</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<h1>Mein Spiel</h1>
+	<div id="start-page">
+		<h2>Wählen Sie einen Schwierigkeitsgrad und eine Farbe der Figur</h2>
+		<label for="difficulty">Schwierigkeit: </label>
+		<select id="difficulty">
+			<option value="easy">Leicht</option>
+			<option value="medium">Mittel</option>
+			<option value="hard">Schwer</option>
+		</select><br><br>
+		<label for="color">Farbe: </label>
+		<input type="color" id="color"><br><br>
+		<button id="startButton">Start</button>
+	</div>
+	<div id="game-page" style="display: none;">
+		<div id="game-container">
+			<div id="square"></div>
+			<div id="score">Punktzahl: <span id="score-value">0</span></div><br>
+			<div id="timer">Übrige Zeit: <span id="time-left"> </span></div>
+		</div>
+	</div>
+	<div id="modal" style="display: none;">
+        <div id="modalContent">
+            <p>Spiel vorbei!</p>
+			<p>Möchtest du noch einmal spielen?</p>
+			<p>Wenn ja, laden Sie die Seite neu.</p>
+        </div>
+    </div>
+</body>
+
+</html>
