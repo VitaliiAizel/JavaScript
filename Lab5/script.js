@@ -82,10 +82,8 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById('modal').style.display = 'block';
 
         const modalContent = document.getElementById('modalContent');
-        modalContent.innerHTML += `
-        <p>Punktzahl: ${score}</p>
-        <p>Möchtest du noch einmal spielen?</p>
-        <p>Wenn ja, laden Sie die Seite neu.</p>
-    `;
+        modalContent.innerHTML += '<p>Punktzahl: ${score}</p>' +
+        '<p>Möchtest du noch einmal spielen?</p>' +
+        '<p>Wenn ja, laden Sie die Seite neu.</p>';
     }
 });
