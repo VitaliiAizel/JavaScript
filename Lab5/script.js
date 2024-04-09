@@ -82,6 +82,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById('modal').style.display = 'block';
 
         const modalContent = document.getElementById('modalContent');
-        modalContent.innerHTML += '<p>Punktzahl: ${score}</p>';
+        modalContent.innerHTML += `<p>Punktzahl: ${score}</p>`;
     }
 });
