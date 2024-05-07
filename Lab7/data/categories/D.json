@@ -1,0 +1,57 @@
+{
+    "catalogitems": [
+        {
+            "id": 41,
+            "shortname": "D-1",
+            "name": "Lettuce",
+            "description": "Crisp and refreshing, our lettuce leaves are perfect for salads, wraps, and sandwiches. With their delicate texture and mild flavor, they provide a crunchy base for your favorite toppings and dressings.",
+            "price": 4.50,
+            "img": "https://place-hold.it/200x200/60CA20"
+        },
+        {
+            "id": 42,
+            "shortname": "D-2",
+            "name": "Arugula",
+            "description": "Peppery and vibrant, our arugula adds a bold kick to any dish. Use it as a flavorful bed for grilled meats, toss it into pasta dishes for added depth, or simply enjoy it dressed with olive oil and lemon for a refreshing salad.",
+            "price": 6.99,
+            "img": "https://place-hold.it/200x200/75BF5F"
+        },
+        {
+            "id": 43,
+            "shortname": "D-3",
+            "name": "Dill",
+            "description": "Fragrant and aromatic, our dill adds a burst of freshness to your culinary creations. Sprinkle it over seafood dishes, mix it into creamy dips and sauces, or use it to flavor pickles for a tangy twist.",
+            "price": 2.99,
+            "img": "https://place-hold.it/200x200/0D3F0B"
+        },
+        {
+            "id": 44,
+            "shortname": "D-4",
+            "name": "Parsley",
+            "description": "Bright and herbaceous, our parsley is a versatile staple in any kitchen. Use it to garnish soups and stews, chop it into salads for a burst of freshness, or blend it into pesto for a vibrant sauce.",
+            "price": 2.45,
+            "img": "https://place-hold.it/200x200/4FA52B"
+        },
+        {
+            "id": 45,
+            "shortname": "D-5",
+            "name": "Shiso",
+            "description": "Vibrant and flavorful, our shiso leaves add a unique twist to your meals. Roll them into sushi rolls, chiffonade them over noodles, or use them to wrap savory fillings for a Japanese-inspired appetizer.",
+            "price": 8.50,
+            "img": "https://place-hold.it/200x200/52B245"
+        },
+        {
+            "id": 46,
+            "shortname": "D-6",
+            "name": "Spinach",
+            "description": "Nutrient-rich and tender, our spinach is a versatile green that can be enjoyed raw or cooked. Add it to smoothies for a healthy boost, sauté it with garlic and olive oil as a side dish, or use it as a base for hearty salads.",
+            "price": 7.25,
+            "img": "https://place-hold.it/200x200/27720F"
+        }
+    ],
+    "category": {
+        "shortname": "D",
+        "name": "Greens",
+        "notes": "Here's greens that we have"
+    }
+}
