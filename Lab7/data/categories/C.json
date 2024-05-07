@@ -1,0 +1,57 @@
+{
+    "catalogitems": [
+        {
+            "id": 31,
+            "shortname": "C-1",
+            "name": "Strawberry",
+            "description": "Bursting with sweetness and vibrant red color, our strawberries are the epitome of summer. Enjoy them fresh as a guilt-free snack, sliced atop desserts, or blended into smoothies for a refreshing treat.",
+            "price": 6.99,
+            "img": "https://place-hold.it/200x200/E50000"
+        },
+        {
+            "id": 32,
+            "shortname": "C-2",
+            "name": "Raspberry",
+            "description": "Sweet and soft, our raspberries are packed with bold flavor and essential nutrients. Add them to breakfast parfaits, bake them into muffins, or simmer them into a homemade jam for a burst of fruity goodness.",
+            "price": 7.99,
+            "img": "https://place-hold.it/200x200/E5003C"
+        },
+        {
+            "id": 33,
+            "shortname": "C-3",
+            "name": "Blueberry",
+            "description": "Plump and juicy, our blueberries are nature's antioxidant powerhouse. Whether sprinkled over pancakes, folded into muffin batter, or enjoyed by the handful, these blue gems are a delicious addition to any meal.",
+            "price": 9.50,
+            "img": "https://place-hold.it/200x200/4200A5"
+        },
+        {
+            "id": 34,
+            "shortname": "C-4",
+            "name": "Physalis",
+            "description": "Sweet with a hint of tartness, our physalis fruits are encased in delicate paper husks for a unique presentation. Enjoy them as a decorative garnish, dipped in chocolate for a gourmet treat, or mixed into fruit salads for added texture.",
+            "price": 11.50,
+            "img": "https://place-hold.it/200x200/FF5D00"
+        },
+        {
+            "id": 35,
+            "shortname": "C-5",
+            "name": "Blackberry",
+            "description": "Juicy and big, our blackberries are bursting with deep, rich flavor. Enjoy them fresh on their own, mixed into yogurt or oatmeal, or baked into pies and cobblers for a taste of summer's bounty.",
+            "price": 11.99,
+            "img": "https://place-hold.it/200x200/0F0029"
+        },
+        {
+            "id": 36,
+            "shortname": "C-6",
+            "name": "Mulberry",
+            "description": "Sweet and succulent, our mulberries are reminiscent of childhood summers spent picking fruit from the tree. Enjoy them straight from the bush, sprinkled over cereal, or blended into smoothies for a nutritious boost.",
+            "price": 12.99,
+            "img": "https://place-hold.it/200x200/1C1836"
+        }
+    ],
+    "category": {
+        "shortname": "C",
+        "name": "Berries",
+        "notes": "Here's berries that we have"
+    }
+}

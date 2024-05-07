@@ -1,0 +1,57 @@
+{
+    "catalogitems": [
+        {
+            "id": 11,
+            "shortname": "A-1",
+            "name": "Potatoes",
+            "description": "Freshly harvested from local farms, our potatoes are rich in flavor and perfect for roasting, mashing, or frying. Their creamy texture and earthy taste make them a versatile ingredient for countless recipes.",
+            "price": 1.55,
+            "img": "https://place-hold.it/200x200/C49C68"
+        },
+        {
+            "id": 12,
+            "shortname": "A-2",
+            "name": "Tomatoes",
+            "description": "Bursting with vibrant color and juicy sweetness, our tomatoes are picked at peak ripeness to ensure maximum flavor. Whether sliced for sandwiches, diced for salsa, or slow-roasted for pasta sauce, these tomatoes elevate any dish.",
+            "price": 4.50,
+            "img": "https://place-hold.it/200x200/C40E0B"
+        },
+        {
+            "id": 13,
+            "shortname": "A-3",
+            "name": "Carrots",
+            "description": "Crisp and crunchy, our carrots are packed with natural sweetness and vibrant orange color. Enjoy them raw as a healthy snack, grated into salads, or roasted with herbs for a savory side dish.",
+            "price": 0.99,
+            "img": "https://place-hold.it/200x200/F27D00"
+        },
+        {
+            "id": 14,
+            "shortname": "A-4",
+            "name": "Batats",
+            "description": "Known for their natural sweetness and velvety texture, our sweet potatoes are a nutritious addition to any meal. Whether baked, mashed, or grilled, these batats add a delicious twist to classic recipes.",
+            "price": 6.99,
+            "img": "https://place-hold.it/200x200/A06931"
+        },
+        {
+            "id": 15,
+            "shortname": "A-5",
+            "name": "Taroes",
+            "description": "With their nutty flavor and starchy texture, taroes are a staple in many cuisines. Boil them for a comforting soup, steam and mash for a creamy side dish, or fry into crispy chips for a tasty snack.",
+            "price": 8.99,
+            "img": "https://place-hold.it/200x200/3F3224"
+        },
+        {
+            "id": 16,
+            "shortname": "A-6",
+            "name": "Roots of lotos",
+            "description": "Delicate and mildly sweet, lotus roots add a unique crunch to dishes. Slice them thinly for stir-fries, pickle them for a tangy snack, or batter and fry them for crispy lotus root chips.",
+            "price": 14.99,
+            "img": "https://place-hold.it/200x200/FFF1C9"
+        }
+    ],
+    "category": {
+        "shortname": "A",
+        "name": "Vegetables",
+        "notes": "Here's vegetables that we have"
+    }
+}
